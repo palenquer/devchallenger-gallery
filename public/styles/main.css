@@ -1,0 +1,52 @@
+:root {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100vh;
+}
+body{
+    padding: 2.5rem 1rem;
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    color: rgba(78, 81, 80, 1);
+}
+header {
+    margin-bottom: 4rem;
+}
+header section,
+header figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main {
+    margin-bottom: 2rem;
+}
+footer {
+    padding: 3rem;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    min-height: 100%;
+}
+@media not all and (max-width: 600px) {
+    :root {
+        font-size:100%;
+    }
+    body {
+        padding: 3rem 6rem;
+    }
+}
+@media (min-width: 1500px) {
+    body {
+        padding: 3rem 20rem;
+    }
+}
