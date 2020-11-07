@@ -1,2 +1,1 @@
-
-DEMO - devchallenger-gallery.vercel.app
+DEMO - https://devchallenger-gallery.vercel.app
